@@ -11,12 +11,13 @@
     "header": "#013a17"
   },
   "allied_factions": [
-    "AoI",
-    "QI"
+    "SM",
+    "QI",
+    "AoI"
   ],
   "datasheets": [
     {
-      "id": "71b2eff8-266e-46d2-a40c-709ff9aca367",
+      "id": "63ce42e2-28e3-466e-b144-11edd126a931",
       "name": "Azrael",
       "cardType": "DataCard",
       "factions": [
@@ -165,7 +166,7 @@
       "wargear": []
     },
     {
-      "id": "df01d48a-d3c5-467b-b5e1-a3d576cd3142",
+      "id": "e39b001e-90b6-43cd-bfe1-806a89c749c0",
       "name": "Belial",
       "cardType": "DataCard",
       "factions": [
@@ -307,7 +308,7 @@
       "wargear": []
     },
     {
-      "id": "a290fc72-ae0c-463e-a1fb-e05940a47ac4",
+      "id": "13279781-b700-402b-b8e7-0d0be70f6c5f",
       "name": "Sammael",
       "cardType": "DataCard",
       "factions": [
@@ -485,7 +486,7 @@
       "wargear": []
     },
     {
-      "id": "d1f05e6e-3c9d-4291-b40b-b97d1ba938b1",
+      "id": "2a2a1379-6401-4c10-849f-b64d09feb7f6",
       "name": "Ezekiel",
       "cardType": "DataCard",
       "factions": [
@@ -676,7 +677,7 @@
       "wargear": []
     },
     {
-      "id": "2c6ca984-4067-4331-b0eb-369b5072b221",
+      "id": "60a440dc-494e-4db3-80f4-154b354d76e3",
       "name": "Asmodai",
       "cardType": "DataCard",
       "factions": [
@@ -834,7 +835,7 @@
       "wargear": []
     },
     {
-      "id": "1f190852-21f9-4500-9ccd-50139474215e",
+      "id": "1bbd2285-8297-4de8-bb8a-bc6aaec67dba",
       "name": "Lion El'Jonson",
       "cardType": "DataCard",
       "factions": [
@@ -1014,7 +1015,7 @@
       "wargear": []
     },
     {
-      "id": "02297f12-0eab-4474-854d-c35c5508c644",
+      "id": "046d3863-4202-4b35-9920-39a68fd369a7",
       "name": "Lazarus",
       "cardType": "DataCard",
       "factions": [
@@ -1155,7 +1156,7 @@
       "wargear": []
     },
     {
-      "id": "d31212cc-f9ac-4aa2-b0e1-67907dfc5733",
+      "id": "ddc6ce79-eb07-46a0-9a9f-55fa0412956e",
       "name": "Nephilim Jetfighter",
       "cardType": "DataCard",
       "factions": [
@@ -1262,7 +1263,7 @@
       "wargear": []
     },
     {
-      "id": "776314d8-225b-4ec1-82e0-4972ad3a05a6",
+      "id": "6fc248c5-dfe6-435d-86d6-f7d6b10cbe5e",
       "name": "Ravenwing Dark Talon",
       "cardType": "DataCard",
       "factions": [
@@ -1369,7 +1370,7 @@
       "wargear": []
     },
     {
-      "id": "8c5dfe12-3ac1-4011-a710-91bef12887f4",
+      "id": "faad2d41-1f51-4181-9b03-c53509b318c4",
       "name": "Land Speeder Vengeance",
       "cardType": "DataCard",
       "factions": [
@@ -1467,7 +1468,7 @@
       "wargear": []
     },
     {
-      "id": "b708a585-743f-4872-8330-8f629e370d01",
+      "id": "b28e7039-e02f-4db9-a452-ca2b056df388",
       "name": "Ravenwing Darkshroud",
       "cardType": "DataCard",
       "factions": [
@@ -1565,7 +1566,7 @@
       "wargear": []
     },
     {
-      "id": "b1bb40c7-b815-4ee1-a117-3c3b0a19b47a",
+      "id": "5508846f-0a32-411d-8902-d1c20083deb6",
       "name": "Ravenwing Talonmaster [Legends]",
       "cardType": "DataCard",
       "factions": [
@@ -1676,7 +1677,7 @@
       "wargear": []
     },
     {
-      "id": "302e6627-6c62-47f1-a55d-fae28cb1a79a",
+      "id": "a5df8f86-5b3f-4ffe-b6a2-9ef1dea81368",
       "name": "Deathwing Strikemaster [Legends]",
       "cardType": "DataCard",
       "factions": [

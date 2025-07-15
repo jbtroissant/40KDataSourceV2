@@ -13,12 +13,10 @@ from typing import Dict, List, Any, Optional
 class BattleScribeTransformer:
     """Classe pour transformer les données BattleScribe vers le format JSON simplifié"""
     
-    def __init__(self, source_file: str, reference_file: str, output_file: str):
+    def __init__(self, source_file: str, output_file: str):
         self.source_file = source_file
-        self.reference_file = reference_file
         self.output_file = output_file
         self.source_data = None
-        self.reference_data = None
         self.game_system_data = None
         self.shared_rules = set()  # Ensemble des règles partagées
     
@@ -76,23 +74,180 @@ class BattleScribeTransformer:
     
     def extract_faction_info(self) -> Dict[str, Any]:
         """Extrait les informations de faction depuis le fichier source"""
+        
+        # Déterminer l'ID et le nom de faction basé sur le nom du fichier source
+        source_name = Path(self.source_file).stem
+        
+        # Mapping des noms de fichiers vers les IDs de faction
+        faction_mapping = {
+            "Imperium - Dark Angels": {"id": "CHDA", "name": "Dark Angels"},
+            "Imperium - Blood Angels": {"id": "CHBA", "name": "Blood Angels"},
+            "Imperium - Space Wolves": {"id": "CHSW", "name": "Space Wolves"},
+            "Imperium - Ultramarines": {"id": "SM", "name": "Ultramarines"},
+            "Imperium - Imperial Fists": {"id": "CHIF", "name": "Imperial Fists"},
+            "Imperium - Iron Hands": {"id": "CHIH", "name": "Iron Hands"},
+            "Imperium - Raven Guard": {"id": "CHRG", "name": "Raven Guard"},
+            "Imperium - Salamanders": {"id": "CHS", "name": "Salamanders"},
+            "Imperium - White Scars": {"id": "CHWS", "name": "White Scars"},
+            "Imperium - Black Templars": {"id": "CHBT", "name": "Black Templars"},
+            "Imperium - Deathwatch": {"id": "CHDW", "name": "Deathwatch"},
+            "Imperium - Grey Knights": {"id": "GK", "name": "Grey Knights"},
+            "Imperium - Adeptus Custodes": {"id": "AC", "name": "Adeptus Custodes"},
+            "Imperium - Adepta Sororitas": {"id": "AS", "name": "Adepta Sororitas"},
+            "Imperium - Adeptus Mechanicus": {"id": "AdM", "name": "Adeptus Mechanicus"},
+            "Imperium - Astra Militarum": {"id": "AM", "name": "Astra Militarum"},
+            "Imperium - Imperial Knights": {"id": "QI", "name": "Imperial Knights"},
+            "Imperium - Agents of the Imperium": {"id": "AoI", "name": "Agents of the Imperium"},
+            "Imperium - Space Marines": {"id": "SM", "name": "Space Marines"},
+            "Chaos - Chaos Space Marines": {"id": "CSM", "name": "Chaos Space Marines"},
+            "Chaos - Death Guard": {"id": "DG", "name": "Death Guard"},
+            "Chaos - Thousand Sons": {"id": "TS", "name": "Thousand Sons"},
+            "Chaos - World Eaters": {"id": "WE", "name": "World Eaters"},
+            "Chaos - Emperor's Children": {"id": "LGEC", "name": "Emperor's Children"},
+            "Chaos - Chaos Daemons": {"id": "CD", "name": "Chaos Daemons"},
+            "Chaos - Chaos Knights": {"id": "QT", "name": "Chaos Knights"},
+            "Aeldari - Craftworlds": {"id": "AE", "name": "Aeldari"},
+            "Aeldari - Drukhari": {"id": "DRU", "name": "Drukhari"},
+            "Aeldari - Ynnari": {"id": "AE", "name": "Aeldari"},
+            "Necrons": {"id": "NEC", "name": "Necrons"},
+            "Orks": {"id": "ORK", "name": "Orks"},
+            "T'au Empire": {"id": "TAU", "name": "T'au Empire"},
+            "Tyranids": {"id": "TYR", "name": "Tyranids"},
+            "Leagues of Votann": {"id": "LoV", "name": "Leagues of Votann"},
+            "Genestealer Cults": {"id": "GSC", "name": "Genestealer Cults"}
+        }
+        
+        # Déterminer les informations de faction
+        if source_name in faction_mapping:
+            faction_id = faction_mapping[source_name]["id"]
+            faction_name = faction_mapping[source_name]["name"]
+        else:
+            # Fallback pour les factions non reconnues
+            faction_id = "UNKNOWN"
+            faction_name = source_name.replace("Imperium - ", "").replace("Chaos - ", "").replace("Aeldari - ", "")
+        
         faction_info = {
-            "id": "CHDA",  # Dark Angels
-            "name": "Dark Angels",
+            "id": faction_id,
+            "name": faction_name,
             "is_subfaction": True,
-            "parent_id": "SM",
-            "parent_keyword": "Adeptus Astartes",
+            "parent_id": "SM" if "Imperium" in source_name else "CSM" if "Chaos" in source_name else faction_id,
+            "parent_keyword": "Adeptus Astartes" if "Imperium" in source_name else "Chaos" if "Chaos" in source_name else faction_name,
             "link": "https://game-datacards.eu",
             "compatibleDataVersion": 640
         }
         
-        # Extraction des couleurs depuis le fichier de référence
-        if self.reference_data and "colours" in self.reference_data:
-            faction_info["colours"] = self.reference_data["colours"]
+        # Extraction des couleurs basée sur le nom de la faction
+        faction_colors = {
+            "Dark Angels": {
+                "banner": "#16291a",
+                "header": "#013a17"
+            },
+            "Blood Angels": {
+                "banner": "#8b0000",
+                "header": "#660000"
+            },
+            "Space Wolves": {
+                "banner": "#2f4f4f",
+                "header": "#1a2f2f"
+            },
+            "Ultramarines": {
+                "banner": "#000080",
+                "header": "#000060"
+            },
+            "Imperial Fists": {
+                "banner": "#daa520",
+                "header": "#b8860b"
+            },
+            "Iron Hands": {
+                "banner": "#696969",
+                "header": "#404040"
+            },
+            "Raven Guard": {
+                "banner": "#2f2f2f",
+                "header": "#1a1a1a"
+            },
+            "Salamanders": {
+                "banner": "#228b22",
+                "header": "#006400"
+            },
+            "White Scars": {
+                "banner": "#f5f5dc",
+                "header": "#d3d3d3"
+            },
+            "Black Templars": {
+                "banner": "#000000",
+                "header": "#1a1a1a"
+            },
+            "Deathwatch": {
+                "banner": "#2f2f2f",
+                "header": "#1a1a1a"
+            },
+            "Grey Knights": {
+                "banner": "#c0c0c0",
+                "header": "#a0a0a0"
+            },
+            "Adeptus Custodes": {
+                "banner": "#daa520",
+                "header": "#b8860b"
+            },
+            "Adepta Sororitas": {
+                "banner": "#8b0000",
+                "header": "#660000"
+            },
+            "Adeptus Mechanicus": {
+                "banner": "#8b4513",
+                "header": "#654321"
+            },
+            "Astra Militarum": {
+                "banner": "#556b2f",
+                "header": "#3d4a1f"
+            },
+            "Imperial Knights": {
+                "banner": "#daa520",
+                "header": "#b8860b"
+            },
+            "Agents of the Imperium": {
+                "banner": "#696969",
+                "header": "#404040"
+            }
+        }
         
-        # Extraction des factions alliées depuis le fichier de référence
-        if self.reference_data and "allied_factions" in self.reference_data:
-            faction_info["allied_factions"] = self.reference_data["allied_factions"]
+        # Déterminer les couleurs basées sur le nom de la faction
+        if faction_name in faction_colors:
+            faction_info["colours"] = faction_colors[faction_name]
+        else:
+            # Couleurs par défaut si la faction n'est pas trouvée
+            faction_info["colours"] = {
+                "banner": "#2f2f2f",
+                "header": "#1a1a1a"
+            }
+        
+        # Extraction des factions alliées depuis catalogueLinks
+        allied_factions = []
+        if "catalogueLinks" in self.source_data:
+            catalogue_links = self.source_data["catalogueLinks"]
+            if "catalogueLink" in catalogue_links:
+                links = catalogue_links["catalogueLink"]
+                if isinstance(links, list):
+                    for link in links:
+                        link_name = link.get("name", "")
+                        # Mapper les noms BattleScribe vers les IDs de faction
+                        if "Imperial Knights" in link_name:
+                            allied_factions.append("QI")
+                        elif "Agents of the Imperium" in link_name:
+                            allied_factions.append("AoI")
+                        elif "Space Marines" in link_name and faction_name not in link_name:
+                            allied_factions.append("SM")
+                else:
+                    link_name = links.get("name", "")
+                    if "Imperial Knights" in link_name:
+                        allied_factions.append("QI")
+                    elif "Agents of the Imperium" in link_name:
+                        allied_factions.append("AoI")
+                    elif "Space Marines" in link_name and faction_name not in link_name:
+                        allied_factions.append("SM")
+        
+        faction_info["allied_factions"] = allied_factions
         
         return faction_info
     
@@ -558,7 +713,6 @@ class BattleScribeTransformer:
         
         # Chargement des fichiers
         self.source_data = self.load_json_file(self.source_file)
-        self.reference_data = self.load_json_file(self.reference_file)
         
         if not self.source_data:
             print("✗ Impossible de charger le fichier source")
@@ -634,7 +788,6 @@ class BattleScribeTransformer:
     def run(self):
         """Exécute la transformation complète"""
         print(f"Transformation de {self.source_file} vers {self.output_file}")
-        print(f"Fichier de référence: {self.reference_file}")
         
         # Charger les règles partagées
         self.load_shared_rules()
@@ -651,7 +804,6 @@ def main():
     """Fonction principale"""
     parser = argparse.ArgumentParser(description='Transforme les données BattleScribe vers le format JSON simplifié')
     parser.add_argument('--source', type=str, required=True, help='Chemin vers le fichier source JSON')
-    parser.add_argument('--reference', type=str, required=True, help='Chemin vers le fichier de référence JSON')
     parser.add_argument('--output', type=str, required=True, help='Chemin vers le fichier de sortie JSON')
     
     args = parser.parse_args()
@@ -661,16 +813,12 @@ def main():
         print(f"✗ Le fichier source {args.source} n'existe pas")
         return
     
-    if not Path(args.reference).exists():
-        print(f"✗ Le fichier de référence {args.reference} n'existe pas")
-        return
-    
     # Création du répertoire de sortie si nécessaire
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
     # Exécution de la transformation
-    transformer = BattleScribeTransformer(args.source, args.reference, args.output)
+    transformer = BattleScribeTransformer(args.source, args.output)
     transformer.run()
 
 if __name__ == "__main__":

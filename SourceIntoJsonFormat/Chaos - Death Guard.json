@@ -3447,35 +3447,6 @@
                   "_text": "Lethal Hits"
                 }
               ]
-            },
-            "modifierGroups": {
-              "modifierGroup": {
-                "type": "and",
-                "modifiers": {
-                  "modifier": [
-                    {
-                      "type": "set",
-                      "value": "4",
-                      "field": "2337-daa1-6682-b110"
-                    },
-                    {
-                      "type": "set",
-                      "value": "3+",
-                      "field": "95d1-95f-45b4-11d6"
-                    }
-                  ]
-                },
-                "conditions": {
-                  "condition": {
-                    "type": "instanceOf",
-                    "value": "1",
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "e37b-6db-a5-23ed",
-                    "shared": "true"
-                  }
-                }
-              }
             }
           }
         },
@@ -31120,40 +31091,6 @@
                     "typeId": "9b8f-694b-e5e-b573",
                     "_text": "Add 1 to the Strength and Attacks characteristics of the bearer's melee weapons, and the bearer's melee weapons have the Devastating Wounds abilty."
                   }
-                }
-              }
-            },
-            "modifierGroups": {
-              "modifierGroup": {
-                "type": "and",
-                "modifiers": {
-                  "modifier": [
-                    {
-                      "type": "increment",
-                      "value": "1",
-                      "field": "2337-daa1-6682-b110",
-                      "affects": "self.entries.profiles.Melee Weapons",
-                      "position": "-1",
-                      "scope": "parent"
-                    },
-                    {
-                      "type": "increment",
-                      "value": "1",
-                      "field": "ab33-d393-96ce-ccba",
-                      "affects": "self.entries.profiles.Melee Weapons",
-                      "position": "-1",
-                      "scope": "parent"
-                    },
-                    {
-                      "type": "append",
-                      "value": "Devastating Wounds",
-                      "field": "893f-9000-ccf7-648e",
-                      "affects": "self.entries.profiles.Melee Weapons",
-                      "position": "-1",
-                      "scope": "parent",
-                      "join": ", "
-                    }
-                  ]
                 }
               }
             },

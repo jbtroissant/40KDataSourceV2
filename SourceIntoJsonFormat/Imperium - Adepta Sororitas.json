@@ -9779,41 +9779,6 @@
                           "_text": "2"
                         }
                       ]
-                    },
-                    "modifierGroups": {
-                      "modifierGroup": {
-                        "type": "and",
-                        "modifiers": {
-                          "modifier": [
-                            {
-                              "type": "set",
-                              "value": "7\"",
-                              "field": "e703-ecb6-5ce7-aec1"
-                            },
-                            {
-                              "type": "set",
-                              "value": "3+",
-                              "field": "450-a17e-9d5e-29da"
-                            },
-                            {
-                              "type": "set",
-                              "value": "Mortifier w/ sarcophagus",
-                              "field": "name"
-                            }
-                          ]
-                        },
-                        "conditions": {
-                          "condition": {
-                            "type": "atLeast",
-                            "value": "1",
-                            "field": "selections",
-                            "scope": "f027-a14f-7bcb-90fd",
-                            "childId": "e8dd-ba31-be8a-ef32",
-                            "shared": "true",
-                            "includeChildSelections": "true"
-                          }
-                        }
-                      }
                     }
                   }
                 },

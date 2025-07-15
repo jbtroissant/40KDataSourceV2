@@ -5055,68 +5055,6 @@
         "collective": "false",
         "import": "true",
         "type": "unit",
-        "modifierGroups": {
-          "modifierGroup": {
-            "modifiers": {
-              "modifier": [
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "50",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "3ec3-a4df-fdbf-5507",
-                      "value": "5",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "atLeast"
-                    }
-                  }
-                },
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "90",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "3ec3-a4df-fdbf-5507",
-                      "value": "5",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "greaterThan"
-                    }
-                  }
-                },
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "100",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "3ec3-a4df-fdbf-5507",
-                      "value": "10",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "equalTo"
-                    }
-                  }
-                }
-              ]
-            }
-          }
-        },
         "profiles": {
           "profile": {
             "id": "34ce-359c-4fc1-da0b",
@@ -9812,30 +9750,6 @@
         "collective": "false",
         "import": "true",
         "type": "unit",
-        "modifierGroups": {
-          "modifierGroup": {
-            "modifiers": {
-              "modifier": {
-                "type": "set",
-                "field": "51b2-306e-1021-d207",
-                "value": "225",
-                "conditions": {
-                  "condition": {
-                    "field": "selections",
-                    "scope": "918b-c9ed-7af7-74df",
-                    "value": "3",
-                    "percentValue": "false",
-                    "shared": "true",
-                    "includeChildSelections": "true",
-                    "includeChildForces": "true",
-                    "childId": "model",
-                    "type": "atLeast"
-                  }
-                }
-              }
-            }
-          }
-        },
         "profiles": {
           "profile": [
             {
@@ -10476,68 +10390,6 @@
         "collective": "false",
         "import": "true",
         "type": "unit",
-        "modifierGroups": {
-          "modifierGroup": {
-            "modifiers": {
-              "modifier": [
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "65",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "dd2d-568a-9c56-1b6e",
-                      "value": "5",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "atLeast"
-                    }
-                  }
-                },
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "115",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "dd2d-568a-9c56-1b6e",
-                      "value": "5",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "greaterThan"
-                    }
-                  }
-                },
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "125",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "dd2d-568a-9c56-1b6e",
-                      "value": "10",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "equalTo"
-                    }
-                  }
-                }
-              ]
-            }
-          }
-        },
         "profiles": {
           "profile": {
             "id": "ba73-e7d0-22ea-1c8f",
@@ -11021,68 +10873,6 @@
         "collective": "false",
         "import": "true",
         "type": "unit",
-        "modifierGroups": {
-          "modifierGroup": {
-            "modifiers": {
-              "modifier": [
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "65",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "503b-f7be-eeeb-9e31",
-                      "value": "5",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "atLeast"
-                    }
-                  }
-                },
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "115",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "503b-f7be-eeeb-9e31",
-                      "value": "5",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "greaterThan"
-                    }
-                  }
-                },
-                {
-                  "type": "set",
-                  "field": "51b2-306e-1021-d207",
-                  "value": "125",
-                  "conditions": {
-                    "condition": {
-                      "field": "selections",
-                      "scope": "503b-f7be-eeeb-9e31",
-                      "value": "10",
-                      "percentValue": "false",
-                      "shared": "true",
-                      "includeChildSelections": "true",
-                      "includeChildForces": "true",
-                      "childId": "model",
-                      "type": "equalTo"
-                    }
-                  }
-                }
-              ]
-            }
-          }
-        },
         "profiles": {
           "profile": {
             "id": "6449-d735-2ac6-02b1",

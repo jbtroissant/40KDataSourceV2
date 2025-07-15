@@ -19036,36 +19036,6 @@
               "targetId": "a4ad-ef25-1ec4-4b1f"
             }
           ]
-        },
-        "modifierGroups": {
-          "modifierGroup": {
-            "type": "and",
-            "modifiers": {
-              "modifier": [
-                {
-                  "type": "set-primary",
-                  "value": "e338-111e-d0c6-b687",
-                  "field": "category"
-                },
-                {
-                  "type": "set",
-                  "value": "6",
-                  "field": "2b10-13dc-60b-4933"
-                }
-              ]
-            },
-            "conditions": {
-              "condition": {
-                "type": "atLeast",
-                "value": "1",
-                "field": "selections",
-                "scope": "force",
-                "childId": "5be7-3aa8-5d64-cbaf",
-                "shared": "true",
-                "includeChildSelections": "true"
-              }
-            }
-          }
         }
       },
       {

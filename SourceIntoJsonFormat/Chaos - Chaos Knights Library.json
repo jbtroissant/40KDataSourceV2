@@ -1699,29 +1699,6 @@
                   "_text": "-"
                 }
               ]
-            },
-            "modifierGroups": {
-              "modifierGroup": {
-                "type": "and",
-                "modifiers": {
-                  "modifier": {
-                    "type": "set",
-                    "value": "6",
-                    "field": "2337-daa1-6682-b110"
-                  }
-                },
-                "conditions": {
-                  "condition": {
-                    "type": "instanceOf",
-                    "value": "1",
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "7177-ef6b-50ae-82e2",
-                    "shared": "true",
-                    "id": "e92a-b21-c415-47bd"
-                  }
-                }
-              }
             }
           }
         },

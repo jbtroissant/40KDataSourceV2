@@ -25,6 +25,11 @@ def parse_xml_to_dict(element):
     for child in element:
         # Nettoie le nom du tag
         clean_tag = clean_tag_name(child.tag)
+        
+        # Ignorer les éléments modifierGroups
+        if clean_tag == "modifierGroups":
+            continue
+            
         child_data = parse_xml_to_dict(child)
         
         if clean_tag in result:

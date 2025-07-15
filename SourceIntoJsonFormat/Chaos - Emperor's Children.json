@@ -2060,64 +2060,6 @@
                   "_text": "-"
                 }
               ]
-            },
-            "modifierGroups": {
-              "modifierGroup": {
-                "type": "and",
-                "conditions": {
-                  "condition": {
-                    "type": "instanceOf",
-                    "value": "1",
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "6264-8211-3a47-31d6",
-                    "shared": "true"
-                  }
-                },
-                "modifiers": {
-                  "modifier": [
-                    {
-                      "type": "set",
-                      "value": "2+",
-                      "field": "95d1-95f-45b4-11d6"
-                    },
-                    {
-                      "type": "set",
-                      "value": "5",
-                      "field": "2337-daa1-6682-b110"
-                    }
-                  ]
-                },
-                "modifierGroups": {
-                  "modifierGroup": {
-                    "type": "and",
-                    "conditions": {
-                      "condition": {
-                        "type": "instanceOf",
-                        "value": "1",
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "6264-8211-3a47-31d6",
-                        "shared": "true"
-                      }
-                    },
-                    "modifiers": {
-                      "modifier": [
-                        {
-                          "type": "set",
-                          "value": "2+",
-                          "field": "95d1-95f-45b4-11d6"
-                        },
-                        {
-                          "type": "set",
-                          "value": "5",
-                          "field": "2337-daa1-6682-b110"
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
             }
           }
         },
@@ -16283,30 +16225,6 @@
                     "typeId": "9b8f-694b-e5e-b573",
                     "_text": "Add 1 to the Attacks and Damage characteristics of melee weapons equipped by the bearer."
                   }
-                }
-              }
-            },
-            "modifierGroups": {
-              "modifierGroup": {
-                "type": "and",
-                "modifiers": {
-                  "modifier": [
-                    {
-                      "type": "increment",
-                      "value": "1",
-                      "field": "2337-daa1-6682-b110",
-                      "scope": "model-or-unit",
-                      "affects": "self.entries.profiles.Melee Weapons",
-                      "position": "-1"
-                    },
-                    {
-                      "type": "increment",
-                      "value": "1",
-                      "field": "3254-9fe6-d824-513e",
-                      "scope": "model-or-unit",
-                      "affects": "self.entries.profiles.Melee Weapons"
-                    }
-                  ]
                 }
               }
             },
