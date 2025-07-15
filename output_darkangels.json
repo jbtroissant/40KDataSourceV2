@@ -1,0 +1,1827 @@
+{
+  "id": "CHDA",
+  "name": "Dark Angels",
+  "is_subfaction": true,
+  "parent_id": "SM",
+  "parent_keyword": "Adeptus Astartes",
+  "link": "https://game-datacards.eu",
+  "compatibleDataVersion": 640,
+  "colours": {
+    "banner": "#16291a",
+    "header": "#013a17"
+  },
+  "allied_factions": [
+    "AoI",
+    "QI"
+  ],
+  "datasheets": [
+    {
+      "id": "71b2eff8-266e-46d2-a40c-709ff9aca367",
+      "name": "Azrael",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Supreme Grand Master",
+            "description": "While this model is leading a unit, weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Masterful Tactician",
+            "description": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "The Lion Helm",
+            "description": "Models in the bearer’s unit have a 4+ invulnerable save. In addition, once per battle, in any phase, the bearer can summon a Watcher in the Dark. When it does, until the end of the phase, models in the bearer’s unit have the Feel No Pain 4+ ability against mortal wounds.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Invulnerable save",
+            "description": "4+",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Azrael",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "6\"",
+          "t": "4",
+          "sv": "2+",
+          "w": "6",
+          "ld": "6+",
+          "oc": "1"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Lion's Wrath",
+              "range": "24\"",
+              "attacks": "2",
+              "skill": "2+",
+              "strength": "8",
+              "ap": "-3",
+              "damage": "2",
+              "keywords": [
+                "Anti-Infantry 4+",
+                "Devastating Wounds",
+                "Rapid Fire 1"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "The Sword of Secrets",
+              "range": "Melee",
+              "attacks": "6",
+              "strength": "6",
+              "ap": "-4",
+              "damage": "2",
+              "keywords": [
+                "Devastating Wounds"
+              ]
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Tacticus",
+        "Azrael",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Chapter Master",
+        "Deathwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "115"
+        }
+      ],
+      "composition": [
+        "1 Azrael"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "df01d48a-d3c5-467b-b5e1-a3d576cd3142",
+      "name": "Belial",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Grand Master of the Deathwing",
+            "description": "While this model is leading a unit, each time a model in that unit makes an attack, if a Critical Hit is scored, that attack has the [PRECISION] ability.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Strikes of Retribution",
+            "description": "Each time a melee attack is allocated to this model, after the attacking model’s unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit): for each 4+, the attacking unit suffers 1 mortal wound.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "4+",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Belial",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "5\"",
+          "t": "5",
+          "sv": "2+",
+          "w": "6",
+          "ld": "6+",
+          "oc": "1"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Master-crafted storm bolter",
+              "range": "24\"",
+              "attacks": "2",
+              "skill": "2+",
+              "strength": "4",
+              "ap": "0",
+              "damage": "2",
+              "keywords": [
+                "Precision",
+                "Rapid Fire 2"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "The Sword of Silence",
+              "range": "Melee",
+              "attacks": "6",
+              "strength": "6",
+              "ap": "-2",
+              "damage": "2",
+              "keywords": [
+                "Precision"
+              ]
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Captain",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Imperium",
+        "Belial",
+        "Terminator",
+        "Deathwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "85"
+        }
+      ],
+      "composition": [
+        "1 Belial"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "a290fc72-ae0c-463e-a1fb-e05940a47ac4",
+      "name": "Sammael",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "4+",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Grand Master of the Ravenwing",
+            "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Cut Off Their Escape",
+            "description": "Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Sammael",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "12\"",
+          "t": "5",
+          "sv": "3+",
+          "w": "7",
+          "ld": "6+",
+          "oc": "2"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Bolt Pistol",
+              "range": "12\"",
+              "attacks": "1",
+              "skill": "2+",
+              "strength": "4",
+              "ap": "0",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Master-crafted plasma cannon",
+              "range": "36\"",
+              "attacks": "D3",
+              "skill": "2+",
+              "strength": "8",
+              "ap": "-3",
+              "damage": "2",
+              "keywords": [
+                "Blast"
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Twin storm bolter",
+              "range": "24\"",
+              "attacks": "2",
+              "skill": "2+",
+              "strength": "4",
+              "ap": "0",
+              "damage": "1",
+              "keywords": [
+                "Rapid Fire 2",
+                "Twin-Linked"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "The Raven Sword",
+              "range": "Melee",
+              "attacks": "6",
+              "strength": "6",
+              "ap": "-3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 2"
+              ]
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Mounted",
+        "Captain",
+        "Imperium",
+        "Fly",
+        "Grenades",
+        "Sammael",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Ravenwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "115"
+        }
+      ],
+      "composition": [
+        "1 Sammael"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "d1f05e6e-3c9d-4291-b40b-b97d1ba938b1",
+      "name": "Ezekiel",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Psychic Hood",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Invulnerable save",
+            "description": "4+",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Engulfing Fear [Psychic]",
+            "description": "In your Shooting phase, you can select one enemy unit within 18\" of this model. That enemy unit must take a Battle-shock test.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Book of Salvation",
+            "description": "While this model is leading a unit, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. When this model is destroyed, each friendly Adeptus Astartes unit within 6\" of this model must take a Battle-shock test.",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Ezekiel",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "6\"",
+          "t": "4",
+          "sv": "2+",
+          "w": "4",
+          "ld": "6+",
+          "oc": "1"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "The Deliverer",
+              "range": "12\"",
+              "attacks": "1",
+              "skill": "2+",
+              "strength": "4",
+              "ap": "-1",
+              "damage": "2",
+              "keywords": [
+                "Pistol",
+                "Precision"
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "➤ Mind Wipe - witchfire",
+              "range": "12\"",
+              "attacks": "1",
+              "skill": "2+",
+              "strength": "6",
+              "ap": "-2",
+              "damage": "D6",
+              "keywords": [
+                "Devastating Wounds",
+                "Precision",
+                "Psychic"
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "➤ Mind Wipe - focussed witchfire",
+              "range": "12\"",
+              "attacks": "1",
+              "skill": "2+",
+              "strength": "6",
+              "ap": "-2",
+              "damage": "D6",
+              "keywords": [
+                "Anti-Character 4+",
+                "Devastating Wounds",
+                "Hazardous",
+                "Precision",
+                "Psychic"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Traitor's Bane",
+              "range": "Melee",
+              "attacks": "4",
+              "strength": "6",
+              "ap": "-2",
+              "damage": "D3",
+              "keywords": [
+                "Anti-Chaos 2+",
+                "Psychic"
+              ]
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Psyker",
+        "Ezekiel",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Librarian",
+        "Deathwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "75"
+        }
+      ],
+      "composition": [
+        "1 Ezekiel"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "2c6ca984-4067-4331-b0eb-369b5072b221",
+      "name": "Asmodai",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Invulnerable save",
+            "description": "4+",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Exemplar of Hate",
+            "description": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Hit roll.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Feared Interrogator",
+            "description": "At the start of the Fight phase, each enemy Character unit within 6\" of this model must take a Battle-shock test, subtracting 1 from that test when they do. In addition, each time this model destroys an enemy Character model with a melee attack, you gain 1CP.",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Asmodai",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "6\"",
+          "t": "4",
+          "sv": "3+",
+          "w": "4",
+          "ld": "5+",
+          "oc": "1"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Heavy Bolt Pistol",
+              "range": "18\"",
+              "attacks": "1",
+              "skill": "3+",
+              "strength": "4",
+              "ap": "-1",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "➤ Crozius Arcanum and Power Weapon - strike",
+              "range": "Melee",
+              "attacks": "5",
+              "strength": "6",
+              "ap": "-2",
+              "damage": "2",
+              "keywords": [
+                "-"
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "➤ Crozius Arcanum and Power Weapon - sweep",
+              "range": "Melee",
+              "attacks": "8",
+              "strength": "5",
+              "ap": "-2",
+              "damage": "1",
+              "keywords": [
+                "-"
+              ]
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Grenades",
+        "Imperium",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Asmodai",
+        "Chaplain",
+        "Tacticus",
+        "Deathwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "70"
+        }
+      ],
+      "composition": [
+        "1 Asmodai"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "1f190852-21f9-4500-9ccd-50139474215e",
+      "name": "Lion El'Jonson",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Fights First"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Primarch of the First Legion",
+            "description": "In your Command phase, select one Primarch of the First Legion abilities (see left). Until the start of your next Command phase, this model has that ability.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "The Emperor's Shield",
+            "description": "Each time an attack is allocated to this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Dark Angels Bodyguard",
+            "description": "While this model is within 3\" of one or more friendly Adeptus Astartes Infantry units, this model has the Lone Operative ability.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Invulnerable save",
+            "description": "3+",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Lion El'Jonson",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "8\"",
+          "t": "9",
+          "sv": "2+",
+          "w": "10",
+          "ld": "5+",
+          "oc": "4"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "➤ Arma Luminis - bolt",
+              "range": "12\"",
+              "attacks": "4",
+              "skill": "2+",
+              "strength": "4",
+              "ap": "-1",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "➤ Arma Luminis - plasma",
+              "range": "12\"",
+              "attacks": "2",
+              "skill": "2+",
+              "strength": "8",
+              "ap": "-3",
+              "damage": "2",
+              "keywords": [
+                "Pistol"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "➤ Fealty - strike",
+              "range": "Melee",
+              "attacks": "8",
+              "strength": "12",
+              "ap": "-4",
+              "damage": "4",
+              "keywords": [
+                "Lethal Hits"
+              ]
+            }
+          ]
+        },
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "➤ Fealty - sweep",
+              "range": "Melee",
+              "attacks": "16",
+              "strength": "6",
+              "ap": "-3",
+              "damage": "2",
+              "keywords": [
+                "Sustained Hits 1"
+              ]
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Monster",
+        "Imperium",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Primarch",
+        "Lion El'Jonson"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "315"
+        }
+      ],
+      "composition": [
+        "1 Lion El'Jonson"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "02297f12-0eab-4474-854d-c35c5508c644",
+      "name": "Lazarus",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Leader"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Intractable Will",
+            "description": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "The Spiritshield Helm",
+            "description": "This model has the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "4+",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Lazarus",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "6\"",
+          "t": "4",
+          "sv": "3+",
+          "w": "5",
+          "ld": "6+",
+          "oc": "1"
+        }
+      ],
+      "rangedWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Bolt pistol",
+              "range": "12\"",
+              "attacks": "1",
+              "skill": "2+",
+              "strength": "4",
+              "ap": "0",
+              "damage": "1",
+              "keywords": [
+                "Pistol"
+              ]
+            }
+          ]
+        }
+      ],
+      "meleeWeapons": [
+        {
+          "active": true,
+          "profiles": [
+            {
+              "active": true,
+              "name": "Enmity’s Edge",
+              "range": "Melee",
+              "attacks": "6",
+              "strength": "6",
+              "ap": "-3",
+              "damage": "2",
+              "keywords": [
+                "Anti-Psyker 2+"
+              ]
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        "Character",
+        "Epic Hero",
+        "Infantry",
+        "Captain",
+        "Grenades",
+        "Imperium",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Lazarus",
+        "Tacticus",
+        "Deathwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "70"
+        }
+      ],
+      "composition": [
+        "1 Lazarus"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "d31212cc-f9ac-4aa2-b0e1-67907dfc5733",
+      "name": "Nephilim Jetfighter",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Hover"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Deadly DemiseD3",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Lightning-fast Manoeuvres",
+            "description": "Each time a ranged attack targets this model, subtract 1 from the Hit roll. If that attack was made by a model that can Fly, subtract 1 from the Wound roll as well.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "DAMAGED: 1-3 WOUNDS REMAINING",
+            "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "5+",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Nephilim Jetfighter",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "20+\"",
+          "t": "8",
+          "sv": "3+",
+          "w": "11",
+          "ld": "6+",
+          "oc": "0"
+        }
+      ],
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "keywords": [
+        "Vehicle",
+        "Fly",
+        "Aircraft",
+        "Imperium",
+        "Nephilim Jetfighter",
+        "Faction: Adeptus Astartes",
+        "Faction: Dark Angels",
+        "Ravenwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "195"
+        }
+      ],
+      "composition": [
+        "1 Nephilim Jetfighter"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "776314d8-225b-4ec1-82e0-4972ad3a05a6",
+      "name": "Ravenwing Dark Talon",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Hover"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Deadly DemiseD3",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "5+",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Stasis Bomb",
+            "description": "Once per battle, one model from your army with this ability can use it after it ends a Normal move. If it does, you can select one enemy unit (excluding Aircraft) that model moved over this phase. That unit suffers D3 mortal wounds and you must roll one D6: on a 1-3, that unit cannot Advance or Fall Back in your opponent’s next Movement phase; on a 4-6, that unit must Remain Stationary in your opponent’s next Movement phase. Each model can only use this ability once per battle.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "DAMAGED: 1-3 WOUNDS REMAINING",
+            "description": "While this model has 1-3 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Ravenwing Dark Talon",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "20+\"",
+          "t": "8",
+          "sv": "3+",
+          "w": "11",
+          "ld": "6+",
+          "oc": "0"
+        }
+      ],
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "keywords": [
+        "Imperium",
+        "Fly",
+        "Vehicle",
+        "Aircraft",
+        "Dark Talon",
+        "Faction: Adeptus Astartes",
+        "Faction: Dark Angels",
+        "Ravenwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "210"
+        }
+      ],
+      "composition": [
+        "1 Ravenwing Dark Talon"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "8c5dfe12-3ac1-4011-a710-91bef12887f4",
+      "name": "Land Speeder Vengeance",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Deadly DemiseD3",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "5+",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Storm of Vengeance",
+            "description": "Once per turn, in your opponent’s Shooting phase, when another friendly Adeptus Astartes unit within 6\" of this model is destroyed, one model with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Land Speeder Vengeance",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "14\"",
+          "t": "8",
+          "sv": "3+",
+          "w": "10",
+          "ld": "6+",
+          "oc": "3"
+        }
+      ],
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "keywords": [
+        "Fly",
+        "Imperium",
+        "Vehicle",
+        "Land Speeder Vengeance",
+        "Faction: Adeptus Astartes",
+        "Faction: Dark Angels",
+        "Ravenwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "120"
+        }
+      ],
+      "composition": [
+        "1 Land Speeder Vengeance"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "b708a585-743f-4872-8330-8f629e370d01",
+      "name": "Ravenwing Darkshroud",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Deadly DemiseD3",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "5+",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Icon of Old Caliban (Aura)",
+            "description": "While a friendly Adeptus Astartes unit is within 6\" of this model, models in that unit have the Stealth ability and each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack.",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Ravenwing Darkshroud",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "14\"",
+          "t": "8",
+          "sv": "3+",
+          "w": "10",
+          "ld": "6+",
+          "oc": "3"
+        }
+      ],
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "keywords": [
+        "Darkshroud",
+        "Imperium",
+        "Fly",
+        "Vehicle",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Ravenwing"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "115"
+        }
+      ],
+      "composition": [
+        "1 Ravenwing Darkshroud"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "b1bb40c7-b815-4ee1-a117-3c3b0a19b47a",
+      "name": "Ravenwing Talonmaster [Legends]",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Deadly Demise1",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Talonmaster",
+            "description": "While this model is within 3\" of one or more other friendly Adeptus Astartes Mounted or Adeptus Astartes Fly Vehicle units, this model has the Lone Operative ability.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Nowhere To Hide",
+            "description": "While a friendly Adeptus Astartes Mounted or Adeptus Astartes Fly Vehicle unit is within 6\" of this model, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Master of Manoeuvre",
+            "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, this model can make a Normal move of up to 6\".",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "5+",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Ravenwing Talonmaster [Legends]",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "16\"",
+          "t": "7",
+          "sv": "3+",
+          "w": "6",
+          "ld": "6+",
+          "oc": "2"
+        }
+      ],
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "keywords": [
+        "Vehicle",
+        "Character",
+        "Fly",
+        "Ravenwing",
+        "Ravenwing Talonmaster",
+        "Faction: Adeptus Astartes",
+        "Faction: Dark Angels",
+        "Imperium"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "105"
+        }
+      ],
+      "composition": [
+        "1 Ravenwing Talonmaster [Legends]"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    },
+    {
+      "id": "302e6627-6c62-47f1-a55d-fae28cb1a79a",
+      "name": "Deathwing Strikemaster [Legends]",
+      "cardType": "DataCard",
+      "factions": [
+        "Dark Angels"
+      ],
+      "faction_id": "CHDA",
+      "source": "40k-10e",
+      "abilities": {
+        "core": [
+          "Deep Strike",
+          "Leader"
+        ],
+        "faction": [
+          "Oath of Moment"
+        ],
+        "other": [
+          {
+            "name": "Oath of Moment",
+            "description": "",
+            "showAbility": true,
+            "showDescription": false
+          },
+          {
+            "name": "Invulnerable Save",
+            "description": "4+",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Tactical Precision",
+            "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
+            "showAbility": true,
+            "showDescription": true
+          },
+          {
+            "name": "Vanquish the Foe",
+            "description": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll.",
+            "showAbility": true,
+            "showDescription": true
+          }
+        ],
+        "special": [],
+        "wargear": [],
+        "primarch": [],
+        "damaged": {
+          "description": "",
+          "range": "",
+          "showDamagedAbility": false,
+          "showDescription": true
+        },
+        "invul": {
+          "info": "",
+          "showAtTop": true,
+          "showInfo": false,
+          "showInvulnerableSave": true,
+          "value": "5+"
+        }
+      },
+      "stats": [
+        {
+          "active": true,
+          "name": "Deathwing Strikemaster [Legends]",
+          "showName": false,
+          "showDamagedMarker": false,
+          "m": "5\"",
+          "t": "5",
+          "sv": "2+",
+          "w": "5",
+          "ld": "6+",
+          "oc": "1"
+        }
+      ],
+      "rangedWeapons": [],
+      "meleeWeapons": [],
+      "keywords": [
+        "Character",
+        "Infantry",
+        "Imperium",
+        "Faction: Dark Angels",
+        "Faction: Adeptus Astartes",
+        "Deathwing",
+        "Deathwing Strikemaster",
+        "Terminator",
+        "Lieutenant"
+      ],
+      "points": [
+        {
+          "name": "model",
+          "model": "1",
+          "cost": "80"
+        }
+      ],
+      "composition": [
+        "1 Deathwing Strikemaster [Legends]"
+      ],
+      "fluff": "",
+      "leader": "",
+      "loadout": "",
+      "transport": "",
+      "wargear": []
+    }
+  ],
+  "enhancements": [],
+  "rules": {
+    "army": [
+      {
+        "name": "Oath of Moment",
+        "rule": [
+          {
+            "order": 1,
+            "text": "This ability is described in full in the Army Rules section of *Codex: Space Marines*.",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "The Deathwing",
+        "rule": [
+          {
+            "order": 1,
+            "text": "The following **ADEPTUS ASTARTES** units gain the **DEATHWING** keyword if they are drawn from the Dark Angels Chapter:\n\n■ **TERMINATOR** units\n■ **BLADEGUARD ANCIENT**, **BLADEGUARD VETERAN SQUAD**, **STERNGUARD VETERAN SQUAD** and **VANGUARD VETERAN SQUAD WITH JUMP PACKS** units\n■ **LAND RAIDER**, **LAND RAIDER CRUSADER**, **LAND RAIDER REDEEMER**, **REPULSOR** and **REPULSOR EXECUTIONER** units\n■ **DREADNOUGHT** units",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "The Ravenwing",
+        "rule": [
+          {
+            "order": 1,
+            "text": "The following **ADEPTUS ASTARTES** units gain the **RAVENWING** keyword if they are drawn from the Dark Angels Chapter:\n\n■ **MOUNTED** units\n■ **VEHICLE** units that can **FLY**",
+            "type": "text"
+          }
+        ]
+      },
+      {
+        "name": "The Unforgiven",
+        "rule": [
+          {
+            "order": 1,
+            "text": "■ If an **ADEPTUS ASTARTES** unit has a second Faction keyword on its datasheet, that Faction keyword is the name of that unit's Chapter. For example, Asmodai has both the **ADEPTUS ASTARTES** and **DARK ANGELS** Faction keywords, and is therefore from the Dark Angels Chapter.\n■ You cannot include units from more than one Chapter in your army.\n\n**Designer's Note**: The rules presented in this section assume that the **ADEPTUS ASTARTES** units in your army are from the Dark Angels Chapter, but they can also be used to represent any Dark Angels successor Chapter, such as one described in the background section of this book, or even one of your own invention. However, players who wish to faithfully recreate the Dark Angels Chapter on the tabletop should only include **DARK ANGELS EPIC HEROES** if their collection is intended to represent the First Founding Chapter itself; Ezekiel is the Chief Librarian of the Dark Angels, for example, and not of any of their successors.",
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  }
+}
